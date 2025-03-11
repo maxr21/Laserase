@@ -1,0 +1,39 @@
+settings =
+{
+    orientation =
+    {
+        default = "landscapeRight",    -- Initial launch orientation
+        --supported = {"landscapeLeft", "landscapeRight"},  -- Table of allowed options for auto-orientation
+    },
+
+    win32 =
+    {
+
+    },
+
+--[[
+    window =
+    {
+        defaultViewWidth =  1280, --1920,
+        defaultViewHeight = 720, --1080,
+        defaultMode = "fullscreen",
+        resizable = true,
+        titleText = {
+          default = "LASERASE: DEMOLITION IN THE FUTURE"
+        },
+    },
+--]]
+
+    web =
+    {
+        defaultViewWidth =  1280, --1920,
+        defaultViewHeight = 720, --1080,
+        defaultMode = "adaptive",
+        resizable = false,
+        titleText = {
+          default = "LASERASE: DEMOLITION IN THE FUTURE"
+        },
+    },
+
+
+}
